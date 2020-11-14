@@ -36,7 +36,7 @@ MD_Parola P = MD_Parola(HARDWARE_TYPE, DATA_PIN, CLK_PIN, CS_PIN, MAX_DEVICES);
 WiFiManager wifiManager;
 WiFiClientSecure wifiClient;
 HTTPClient http;
-CovidData covidData = {0, 0, "", false};
+CovidData covidData = {0, 0, "UA", false};
 Scheduler scheduler;
 bool showStats = false;
 char message[100] = {"Using existing Wi-Fi settings"};
